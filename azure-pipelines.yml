@@ -10,8 +10,7 @@ pool: Default
 steps:
 - task: CmdLine@1
   inputs:
-    filename: notepad # string. Required. Tool. 
-    #arguments: # string. Arguments. 
-  # Advanced
-    #workingFolder: # string. Working folder. 
-    #failOnStandardError: false # boolean. Fail on Standard Error. Default: false.
+    filename: orqac
+    arguments: BrowserTest/BrowserTest.task
+    workingFolder: c:\dev\orqa
+    failOnStandardError: true
