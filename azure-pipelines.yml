@@ -8,8 +8,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: BIGGAR
+pool: Default
+#  vmImage: BIGGAR
 
 steps:
 - task: CmdLine@1
