@@ -8,9 +8,9 @@ pool: Default
 #  vmImage: BIGGAR
 
 steps:
-- task: notepad
+- task: CmdLine@1
   inputs:
-    filename: # string. Required. Tool. 
+    filename: notepad # string. Required. Tool. 
     #arguments: # string. Arguments. 
   # Advanced
     #workingFolder: # string. Working folder. 
