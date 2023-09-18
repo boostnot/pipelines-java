@@ -12,5 +12,5 @@ steps:
   inputs:
     filename: orqac
     arguments: Support_AbnAmro/KeepExtensionTest.task
-    workingFolder: c:\dev\orqa
+    workingFolder: C:\Apps\Orqa
     failOnStandardError: true
