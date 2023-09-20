@@ -11,6 +11,6 @@ steps:
 - task: CmdLine@1
   inputs:
     filename: orqac
-    arguments: Support_AbnAmro/KeepExtensionTest.task
+    arguments: BrowserTest/BrowserTest.task
     workingFolder: C:\Apps\Orqa
     failOnStandardError: true
